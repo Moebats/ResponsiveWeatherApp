@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background: #1d2023;
+	color: #cfe6f7;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 100%;
+}
+
+.header {
+	background: #1d2023;
+	text-align: center;
+    padding: 15px;
+}
+
+span{
+	color: #cfffc9;
+	background-color: #171a1c;
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	margin: 5px;
+}
+
+
+.article {
+	background-color: #1d2023;
+	float: left;
+	text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+section {
+	text-align: center;
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
+    font-size: 100%;
+    border-radius: 8px;
+}
+
+.display{
+	background: #171a1c;
+}
+
+.footer {
+	margin: auto;
+	float: left;
+	background: #1d2023;
+	text-align: center;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="all"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 300px) {
+    /* For tablets: */
+
+    header{width: 100%;}
+    article{width: 100%;}
+    section{width: 100%; margin-bottom: 5px;}
+    footer{width: 100%; margin: 5px;}
+   
+}
+
+@media only screen and (min-width: 500px) {
+    /* For tablets: */
+
+    header{width: 100%;}
+    article{width: 100%;}
+    section{width: 40%; margin-bottom: 5px;}
+    footer{width: 100%; margin: 5px;}
+   
+}
+@media only screen and (min-width: 768px) {
+    
+    /* For desktop: */
+	.container {width: 100%;}
+	.header {width: 100%;}
+	.article {width: 100%;}
+	section {width: 30%; margin: 10px;}
+	.footer {
+		width: 100%;
+		margin: auto;
+		float: left;	
+	}
+  }
+
+@media only screen and (min-width: 980px) {
+    
+    /* For larger desktop: */
+	.container {width: 90%; margin:auto;}
+	.header {width: 100%;}
+	.article {width: 100%; float:left; }
+	section {width: 20%; margin: 10px;}
+	.footer {
+		width: 100%;
+		margin: auto;
+		float: left;	
+	}
+  }
+@media only screen and (min-width: 1200px) {
+    
+	.container {width: 90%; margin:auto;}
+	.header {width: 100%;}
+	.article {width: 100%; float: left; }
+	section {width: 20%; margin: 10px; }
+	.footer {
+		width: 100%;
+		margin: auto;
+		float: left;	
+	}
+  }
+  a:link, a:visited {
+    background-color: #3dbbff;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+	a:hover, a:active {
+	    background-color: #2e3338;
+}
+
+	section:hover, a:active {
+	    background-color: black;
+	}
